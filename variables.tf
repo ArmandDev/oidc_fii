@@ -25,7 +25,7 @@ variable "public_subnet_cidr" {
 variable "availability_zone" {
   description = "Availability zone for the public subnet"
   type        = string
-  default     = "eu-central-1a"
+  default     = "us-east-1a"
 }
 
 variable "s3_bucket_prefix" {
